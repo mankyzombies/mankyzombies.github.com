@@ -1,0 +1,101 @@
+.content {
+    position: relative;
+
+    margin: 50px auto 0 auto;
+    width: 1190px;
+}
+
+.content .side {
+    float: left;
+
+    width: 255px;
+}
+
+.content .side h2,
+.content .extra h2{
+    margin-bottom: 35px;
+
+    font: bold 16px Arial,sans-serif;
+    color: #24a343;
+}
+
+.content .side h3 {
+    margin-bottom: 15px;
+
+    font-weight: bold;
+    color: #999;
+}
+
+.content .side .menu {
+    margin-bottom: 20px;
+}
+
+.content .side .menu li {
+    margin: 0 0 15px 15px;
+    *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'));
+}
+
+.content .side .menu li:before,
+.content .side .menu li .before {
+    content: '';
+
+    position: absolute;
+    margin: 5px 0 0 -15px;
+
+    display: block;
+    border: 1px solid #afdcbb;
+    width: 4px;
+    height: 4px;
+
+    background: #38af4f;
+}
+
+.content .main {
+    margin-left: 255px;
+
+    font-size: 15px;
+    color: #333;
+}
+
+.content.three-column .main {
+    float: left;
+
+    margin-left: 0;
+    width: 675px;
+}
+
+.content .main h2 {
+    margin-bottom: 35px;
+
+    font: bold 20px/16px Arial,sans-serif;
+}
+
+.content .main p {
+    margin-bottom: 20px;
+}
+
+.content .extra {
+    float: right;
+
+    width: 220px;
+}
+
+.content .extra .staff {
+    width: 162px;
+}
+
+.content .extra .staff .member {
+    margin-bottom: 30px;
+}
+
+.content .extra .staff .photo {
+    display: block;
+    margin-bottom: 10px;
+
+    border: 1px solid #666;
+}
+
+.content .extra .staff .name {
+    font: bold 15px/20px Arial,sans-serif;
+    color: #333;
+}

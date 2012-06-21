@@ -1,0 +1,18 @@
+body {
+    font: 14px/16px Arial, sans-serif;
+    color: #666;
+
+    background: #ccdae3 url(/img/gorod_blur.png) top center repeat-x;
+}
+
+body.wide {
+    background: #cddbe4 url(/img/gorod.png) top center repeat-x;
+}
+
+a {
+    color: #39c;
+}
+
+strong {
+    font-weight: bold;
+}

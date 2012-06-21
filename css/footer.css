@@ -1,0 +1,83 @@
+.footer-wrapper {
+    clear: both;
+
+    padding-top: 150px;
+}
+
+body.wide .footer-wrapper {
+    padding-top: 50px;
+}
+
+.footer {
+    position: relative;
+
+    margin: 0 auto;
+    border-top: 3px solid #fff;
+    width: 1190px;
+    height: 70px;
+}
+
+.footer .copyright {
+    position: absolute;
+    z-index: 1;
+    top: 23px;
+    left: 0;
+}
+
+.footer .phone {
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+    z-index: 1;
+
+    font: bold 22px Arial, sans-serif;
+}
+
+.footer .menu {
+    position: absolute;
+    top: 23px;
+
+    width: 100%;
+
+    z-index: 0;
+}
+
+.footer .menu ul {
+    text-align: center;
+}
+
+.footer .menu ul li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    padding: 0 10px;
+}
+
+.footer-decoration.footer-wrapper {
+    padding-top: 250px;
+}
+
+.footer-decoration .car {
+    position: absolute;
+    top: -200px;
+
+
+    width: 218px;
+    height: 130px;
+
+    background: url(/img/car_.png) 0 0 no-repeat;
+}
+
+.footer-decoration .bus {
+    position: absolute;
+    top: -185px;
+    left: 175px;
+
+    width: 181px;
+    height: 78px;
+
+    background: url(/img/bus_small_.png) 0 0 no-repeat;
+}

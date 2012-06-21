@@ -1,0 +1,214 @@
+/* Header */
+.header-wrapper {
+    position: relative;
+    border-bottom: 1px solid #359e4d;
+    height: 168px;
+    min-width: 1250px;
+
+    background: #1b9b3c url(/img/gradients.png) 0 0 repeat-x;
+    background: -moz-linear-gradient(top,  #1b9b3c 0%, #43be58 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1b9b3c), color-stop(100%,#43be58));
+    background: -webkit-linear-gradient(top,  #1b9b3c 0%,#43be58 100%);
+    background: -o-linear-gradient(top,  #1b9b3c 0%,#43be58 100%);
+    background: -ms-linear-gradient(top,  #1b9b3c 0%,#43be58 100%);
+    background: linear-gradient(top,  #1b9b3c 0%,#43be58 100%);
+}
+
+.header-wrapper:after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    background: #3eb354;
+}
+
+.header {
+    position: relative;
+
+    margin: 0 auto;
+    height: 167px;
+    width: 1190px;
+
+    background: url(/img/light.png) top center no-repeat;
+
+    z-index: 1;
+}
+
+.header .logo {
+    position: absolute;
+    top: 30px;
+}
+
+.header .slogan {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+
+    margin-left: -290px;
+    height: 31px;
+    width: 580px;
+
+    text-indent: -9999px;
+    background: url(/img/slogan.png) 0 0 no-repeat;
+}
+
+.header .contacts {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.header .contacts .phone {
+    height: 57px;
+    width: 250px;
+
+    background: url(/img/phone.png) 0 0 no-repeat;
+    text-indent: -9999px;
+}
+
+.header .contacts .work-time {
+    width: 250px;
+
+    font: 16px/20px Arial, sans-serif;
+    text-align: center;
+    color: #fef1c3;
+}
+
+.header .menu {
+    position: absolute;
+    bottom: 0;
+
+    height: 41px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.header .menu ul {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    border: 1px solid #39b152;
+    border-right-color: #3bb352;
+    border-bottom-color: #c6def1;
+
+    background: #fff url(/img/gradients.png) 0 -173px repeat-x;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e6f2fc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6f2fc));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e6f2fc 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#e6f2fc 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e6f2fc 100%);
+    background: linear-gradient(top,  #ffffff 0%,#e6f2fc 100%);
+
+    -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
+    -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
+    box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
+}
+
+.header .menu ul li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    border-top: 1px solid #2e9848;
+    border-bottom: 1px solid #c3daf0;
+
+    height: 39px;
+}
+
+.header .menu ul li a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    border-left: 1px solid #cddbe9;
+    padding: 0 28px;
+    height: 39px;
+    line-height: 39px;
+
+    font-size: 16px;
+    text-shadow: 0 1px rgba(0,0,0,.05);
+}
+
+.header .menu ul li:first-child a {
+    border: none;
+}
+
+.header .menu ul li.selected a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,.1);
+
+    background: #eebc21 url(/img/gradients.png) 0 -219px repeat-x;
+    background: -moz-linear-gradient(top,  #eebc21 0%, #ffde6a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eebc21), color-stop(100%,#ffde6a));
+    background: -webkit-linear-gradient(top,  #eebc21 0%,#ffde6a 100%);
+    background: -o-linear-gradient(top,  #eebc21 0%,#ffde6a 100%);
+    background: -ms-linear-gradient(top,  #eebc21 0%,#ffde6a 100%);
+    background: linear-gradient(top,  #eebc21 0%,#ffde6a 100%);
+
+    -moz-box-shadow: inset 0 4px 10px rgba(0,0,0,.15), inset 0 -1px 2px rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 4px 10px rgba(0,0,0,.15), inset 0 -1px 2px rgba(0,0,0,.05);
+    box-shadow: inset 0 4px 10px rgba(0,0,0,.15), inset 0 -1px 2px rgba(0,0,0,.05);
+}
+
+.header .order-now {
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+
+    border-bottom: 1px solid #c6d7d8;
+    border-right: 1px solid #b8e1c6;
+    width: 218px;
+    height: 40px;
+
+    background: #fdfeff url(/img/gradients.png) 0 -463px repeat-x;
+    background: -moz-linear-gradient(top,  #fdfeff 0%, #e9f3fc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfeff), color-stop(100%,#e9f3fc));
+    background: -webkit-linear-gradient(top,  #fdfeff 0%,#e9f3fc 100%);
+    background: -o-linear-gradient(top,  #fdfeff 0%,#e9f3fc 100%);
+    background: -ms-linear-gradient(top,  #fdfeff 0%,#e9f3fc 100%);
+    background: linear-gradient(top,  #fdfeff 0%,#e9f3fc 100%);
+
+    *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('beforeEnd', '<div class=after></div>'));
+}
+
+.header .order-now a {
+    display: block;
+    border-bottom: 1px solid #dfeaf0;
+    height: 39px;
+
+    text-align: center;
+    line-height: 39px;
+    text-decoration: none;
+
+    font-size: 22px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5fdc6b), color-stop(100%,#3eb854));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #3eb854;
+}
+
+.header .order-now:after,
+.header .order-now .after {
+    content: '';
+
+    position: absolute;
+    top: -20px;
+    left: 215px;
+
+    display: block;
+    width: 26px;
+    height: 30px;
+
+    background: url(/img/rays.png) 0 0 no-repeat;
+}

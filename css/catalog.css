@@ -1,0 +1,136 @@
+.catalog h4 {
+    margin-bottom: 15px;
+
+    font-size: 14px;
+}
+
+.catalog p {
+    font-size: 12px;
+    color: #666;
+}
+
+.catalog table {
+    margin-bottom: 16px;
+    border: 1px solid #bbd3e6;
+    width: 100%;
+}
+
+.catalog table caption {
+    padding: 0 0 0 30px;
+    height: 40px;
+
+    font: bold 15px/40px Arial,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+
+    background: #44d072;
+    background: -moz-linear-gradient(top,  #44d072 0%, #2bad4c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44d072), color-stop(100%,#2bad4c));
+    background: -webkit-linear-gradient(top,  #44d072 0%,#2bad4c 100%);
+    background: -o-linear-gradient(top,  #44d072 0%,#2bad4c 100%);
+    background: -ms-linear-gradient(top,  #44d072 0%,#2bad4c 100%);
+    background: linear-gradient(top,  #44d072 0%,#2bad4c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44d072', endColorstr='#2bad4c',GradientType=0 );
+}
+
+.catalog table thead tr {
+    height: 24px;
+
+    font: 12px/24px Arial,sans-serif;
+    color: #999;
+
+    background: #fff url(/img/gradients.png) 0 -173px repeat-x;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e9f4fc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e9f4fc));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e9f4fc 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#e9f4fc 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e9f4fc 100%);
+    background: linear-gradient(top,  #ffffff 0%,#e9f4fc 100%);
+}
+
+.catalog .item {
+    background: #fff url(/img/catalog_gradient.png) left bottom repeat-x;
+    background: -moz-linear-gradient(top,  #ffffff 85%, #e9f4fc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%,#ffffff), color-stop(100%,#e9f4fc));
+    background: -webkit-linear-gradient(top,  #ffffff 85%,#e9f4fc 100%);
+    background: -o-linear-gradient(top,  #ffffff 85%,#e9f4fc 100%);
+    background: -ms-linear-gradient(top,  #ffffff 85%,#e9f4fc 100%);
+    background: linear-gradient(top,  #ffffff 85%,#e9f4fc 100%);
+}
+
+.catalog .thumb,
+.catalog .name,
+.catalog .places,
+.catalog .color {
+    padding: 15px 0 15px 0;
+    border-top: 1px solid #bbd3e6;
+
+    vertical-align: top;
+}
+
+.catalog .thumb {
+    width: 35%;
+}
+
+.catalog .thumb img {
+    margin-left: 30px;
+}
+
+.catalog .name {
+    width: 35%;
+}
+
+.catalog .name h4 {
+    font-weight: normal;
+}
+
+.catalog .name .more {
+    border-bottom: 1px dotted;
+
+    font: bold 14px Arial,sans-serif;
+    color: #3399cc;
+    cursor: pointer;
+}
+
+.catalog .places {
+    width: 10%;
+}
+
+.catalog .color .square {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    *margin: 0 3px 0 0;
+    border: 1px solid #aaa;
+
+    width: 10px;
+    height: 10px;
+}
+
+.catalog .color .square.white {
+    background: #fff;
+}
+
+.catalog .color .square.black {
+    background: #000;
+}
+
+.catalog .color .square.blue {
+    background: #000094;
+}
+
+.catalog .color .square.green {
+    background: #093;
+}
+
+.catalog .container {
+    display: none;
+
+    overflow: hidden;
+    padding: 20px 35px 0 35px;
+
+    background: #f4f8fb url(/img/catalog_gradient_more.png) bottom left repeat-x;
+}
